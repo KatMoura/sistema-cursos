@@ -1,0 +1,37 @@
+export const cursos = [
+  {
+    id: 1,
+    titulo: 'React Native Básico',
+    descricao: 'Aprenda os conceitos fundamentais do React, incluindo componentes, props, state, hooks e muito mais.',
+    vagas: 20,
+    preco: 'R$ 99,90',
+    duracao: '4 semanas',
+    imagem: require('../assets/react.png'),
+  },
+  {
+    id: 2,
+    titulo: 'JavaScript Avançado',
+    descricao: 'Domine conceitos avançados de JavaScript',
+    vagas: 15,
+    preco: 'R$ 129,90',
+    duracao: '6 semanas',
+    imagem: require('../assets/tbr-javascript.png'),
+  },
+  {
+    id: 3,
+    titulo: 'UI/UX Design',
+    descricao: 'Aprenda a criar interfaces bonitas e funcionais',
+    vagas: 10,
+    preco: 'R$ 149,90',
+    duracao: '5 semanas',
+    imagem: require('../assets/ui-ux.png'),
+  },
+  {
+    id: 4,
+    titulo: 'Firebase & Backend',
+    descricao: 'Integre banco de dados na sua aplicação',
+    preco: 'R$ 139,90',
+    duracao: '5 semanas',
+    imagem: require('../assets/firebase.png'),
+  },
+];
