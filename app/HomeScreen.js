@@ -61,7 +61,7 @@ export default function HomeScreen({ navigation }) {
           marginLeft: 'auto',
           height: 38,
           overflow: 'hidden',
-          backgroundColor: '#cbcbcb3c', // Cor de fundo vem para o container
+          backgroundColor: '#cbcbcb3c',
           borderRadius: 25,
         }}>
           <TextInput
@@ -70,7 +70,7 @@ export default function HomeScreen({ navigation }) {
               width: '100%',
               color: '#0e0d0dff',
               paddingHorizontal: 10,
-              fontSize: 20, // Tamanho da fonte controlado
+              fontSize: 20,
             }}
             value={busca}
             onChangeText={setBusca}
